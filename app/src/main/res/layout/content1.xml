@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:text="ike-X was an anti-ballistic missile system developed in the 1960s by the US Army to counter the Soviet Union's intercontinental ballistic missiles (ICBM). Tested but never deployed, it was a response to the problems with Nike Zeus, "
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+

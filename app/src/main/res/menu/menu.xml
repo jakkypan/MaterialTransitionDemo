@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/scrollFlags"
+        android:title="设定"
+        app:showAsAction="always">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/duration"
+                    android:title="duration"
+                    app:showAsAction="ifRoom">
+                    <menu>
+                        <group>
+                            <item
+                                android:id="@+id/d1000"
+                                android:title="1000"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/d2000"
+                                android:title="2000"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/d5000"
+                                android:title="5000"
+                                app:showAsAction="ifRoom" />
+                        </group>
+                    </menu>
+                </item>
+
+                <item
+                    android:id="@+id/interpolator"
+                    android:title="interpolator"
+                    app:showAsAction="ifRoom">
+                    <menu>
+                        <group>
+                            <item
+                                android:id="@+id/adinterpolator"
+                                android:title="AccelerateDecelerateInterpolator"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/ainterpolator"
+                                android:title="AccelerateInterpolator"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/dinterpolator"
+                                android:title="DecelerateInterpolator"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/linterpolator"
+                                android:title="LinearInterpolator"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/binterpolator"
+                                android:title="BounceInterpolator"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/cinterpolator"
+                                android:title="CycleInterpolator"
+                                app:showAsAction="ifRoom" />
+                        </group>
+                    </menu>
+                </item>
+
+                <item
+                    android:id="@+id/slideEdge"
+                    android:title="slideEdge(仅Slide有效)"
+                    app:showAsAction="ifRoom">
+                    <menu>
+                        <group>
+                            <item
+                                android:id="@+id/left"
+                                android:title="left"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/top"
+                                android:title="top"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/right"
+                                android:title="right"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/bottom"
+                                android:title="bottom"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/start"
+                                android:title="start"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/end"
+                                android:title="end"
+                                app:showAsAction="ifRoom" />
+                        </group>
+                    </menu>
+                </item>
+
+                <item
+                    android:id="@+id/resizeClip"
+                    android:title="resizeClip(仅ChangeBounds有效)"
+                    app:showAsAction="ifRoom">
+                    <menu>
+                        <group>
+                            <item
+                                android:id="@+id/yes"
+                                android:title="true"
+                                app:showAsAction="ifRoom" />
+                            <item
+                                android:id="@+id/no"
+                                android:title="false"
+                                app:showAsAction="ifRoom" />
+                        </group>
+                    </menu>
+                </item>
+            </group>
+        </menu>
+    </item>
+</menu>
