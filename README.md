@@ -15,5 +15,7 @@ demo的效果：
 ## 其他资料
 
 [custom-transitions](https://developer.android.com/training/transitions/custom-transitions#java)
+
 [Transitions-Everywhere](https://github.com/andkulikov/Transitions-Everywhere)
+
 [Material-Animations](https://github.com/lgvalle/Material-Animations)
