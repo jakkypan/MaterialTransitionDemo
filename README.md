@@ -4,7 +4,7 @@ MaterialTransitionDemo
 
 demo的效果：
 
-![](demo.png)
+<img src=demo.png width=200  height=400 />
 
 ## 实现原理
 
